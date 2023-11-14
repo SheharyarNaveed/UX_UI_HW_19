@@ -1,0 +1,217 @@
+body {
+    background-color: #232323;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Navbar a {
+    position: relative;
+    font-size: 16px;
+    font-family: avenir;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    overflow-x: auto;
+}
+
+.Navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+
+.Navbar a:hover::before{
+    width: 100%;
+}
+
+h1 {
+    text-align: left;
+    font-family: avenir;
+    font-size: 60px;
+    padding-left: 220px;
+    padding-top: 150px;
+    color: white;
+}
+
+.whoiam {
+    text-align: left;
+    font-family: avenir;
+    font-size: 30px;
+    width: 3000px;
+    color: white;
+    padding-left: 225px;
+}
+
+h3 {
+    text-align: right;
+    font-family: avenir;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 280px;
+    color: white;
+}
+
+.ArrowButton {
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: transparent;
+    border-width: 0px;
+    border-color: transparent;
+}
+
+h4 {
+    text-align: center;
+    font-family: avenir;
+    font-size: 60px;
+    padding-top: 200px;
+    color: white;
+}
+
+p {
+    font-family: avenir;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    width: 400px;
+    padding-top: 30px;
+    line-height: 1.6;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 100px;
+}
+
+.Firstdiv {
+    color: white;
+    height: 0.5px;
+    width: 800px;
+}
+
+h5 {
+    text-align: center;
+    font-family: avenir;
+    font-size: 60px;
+    color: white;
+}
+
+.aboutMyself {
+    text-align: left;
+    font-family: avenir;
+    font-size: 30px;
+    color: white;
+    padding-left: 218px;
+}
+
+.firstParagraph {
+    text-align: left;
+    font-family: avenir;
+    font-size: 16px;
+    color: white;
+    padding-left: 220px;
+    width: 500px;
+    line-height: 1.6;
+}
+
+.whatcanido {
+    text-align: left;
+    font-family: avenir;
+    font-size: 30px;
+    color: white;
+    padding-left: 100px;
+}
+
+.secondParagraph {
+    text-align: left;
+    font-family: avenir;
+    font-size: 16px;
+    color: white;
+    padding-left: 100px;
+    width: 420px;
+    line-height: 1.6;
+}
+
+.thirdParagraph {
+    text-align: left;
+    font-family: avenir;
+    font-size: 16px;
+    color: white;
+    padding-left: 220px;
+    width: 500px;
+    padding-bottom: 100px;
+    line-height: 1.6;
+}
+
+.Seconddiv {
+    color: white;
+    height: 0.5px;
+    width: 800px;
+}
+
+.myInterests {
+    text-align: left;
+    font-family: avenir;
+    font-size: 30px;
+    color: white;
+    padding-left: 218px;
+}
+
+.contact {
+    text-align: center;
+    line-height: 2;
+}
+
+.socials {
+    text-align: center;
+    line-height: 2;
+}
+
+#Text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: avenir;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 218px;
+}
+
+.Me {
+    padding-top: 80px;
+}
