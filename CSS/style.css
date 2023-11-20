@@ -87,12 +87,21 @@ h4 {
 
 p {
     font-family: avenir;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     text-align: center;
     width: 400px;
-    padding-top: 30px;
     line-height: 1.6;
+}
+
+.EcoTravel {
+    font-size: 25px;
+    font-family: avenir;
+}
+
+.ARExplore {
+    font-size: 25px;
+    font-family: avenir;
 }
 
 .grid-container {
