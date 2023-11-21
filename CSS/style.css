@@ -104,6 +104,10 @@ p {
     font-family: avenir;
 }
 
+a {
+    text-decoration: none;
+}
+
 .grid-container {
   display: flex;
   justify-content: center;
